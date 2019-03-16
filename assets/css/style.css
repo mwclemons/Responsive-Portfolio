@@ -1,0 +1,163 @@
+.myheaderformat{
+    background-color: #4aaaa5;
+    font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding-right: 25px;
+    padding-left: 25px;
+    left: 12.5%;
+    position: absolute;
+    /* top: 0; */
+    font-size: 25px;
+    height: 60px;
+    color: #e3f2fd;
+    
+        }
+
+.mymenuformat{
+    right: 12.5%;
+    position: absolute;
+    /* top: 0; */
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.navbar {
+    min-height: 50px;
+    border-bottom: 2px solid #cccccc;
+    color:#ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
+
+.navbar-brand {
+    height: 48px;
+    line-height: 39px;
+    color: #e3f2fd;
+    }
+  
+
+body {
+    position: relative;
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/white-waves.png');
+    
+    }
+
+.footer {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #666666;
+        color: white;
+        text-align: center;
+        border-top: 8px solid #4aaaa5;
+        font-size: 10px;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-top: 10px;
+        margin-top: 50px;
+        height: 50px;
+    }
+
+.port{
+    width: 960px;
+    position: relative;
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    min-height: 100px;
+    margin: auto;
+    margin-top: 25px;
+    }
+
+.mypageheader{
+    color: #4aaaa5;
+    font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+.mypageheader:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    /* margin: 0 auto; This will center the border. */
+    width: 910px; /* Change this to whatever width you want. */
+    padding-top: 15px; /* This creates some space between the element and the border. */
+    border-bottom: 2px solid #cccccc;/* This creates the border. Replace black with whatever color you want. */
+}
+
+.mycontentarea{
+    margin-left: 25px;
+    margin-right: 25px;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-bottom: 25px;
+    
+}
+
+.profileimage{
+    float: left;
+    padding-right: 25px;
+}
+
+.myinputbox{
+    width: 910px;
+    padding-left: 10px;
+    height: 25px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+}
+
+.myemailbox{
+    width: 910px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    height: 150px;
+    margin-top: 0px;
+}
+
+.contactp{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px; 
+    color: #777777;
+}
+
+button{
+    margin-bottom: 20px;
+    color: white;
+    background-color: #4aaaa5;
+    border: none;
+}
+
+.city{
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+    margin: 25px;
+}
+
+.imagecontainer{
+    position: relative;
+    text-align: center;
+    float: left;
+    
+}
+
+.imagetxt{
+    position: absolute;
+    top: 60%;
+    left: 25px;
+    color: white;
+    background-color: #4aaaa5;
+    padding: 20px;
+    width:300px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20px;
+    
+    
+}
